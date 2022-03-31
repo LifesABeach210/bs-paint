@@ -83,10 +83,10 @@ var clickOnCanvas= false;  //  let clicked = false
 for (const color of palette) {
   color.addEventListener('click', function () {
     if (color.classList[0] === 'palette-color') {
-      brush.classList.replace(brush.classList[1], color.classList[1])
+      brush.classList.replace(brush.classList[1], color.classList[1]);
     }
     
-  })
+  });
 }
 
 var clicked=false;
@@ -100,7 +100,7 @@ for (const square of canvas) {
 	square.addEventListener('click', function () {
 		console.log("square.click");
 		square.classList.replace(square.classList[1], brush.classList[1]);
-		clicked = false
+		clicked = false;
 	});
 }
  
@@ -111,7 +111,7 @@ document.addEventListener("mousedown", function () {
 
 //! When mouseUp turns click false
 document.addEventListener("mouseup", function () {
-  clicked = false
+  clicked = false;
 });
 
 
