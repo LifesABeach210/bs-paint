@@ -50,7 +50,7 @@ Here are some tools you can use:
 * `querySelectorAll` to grab all elements that match a certain selector
 * `addEventListener` to give an element a function it should run on click
 * `for of` loops (or `.forEach`?!) to give each element in a list its listener
-* `classList` and [its many awesome methods](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList#Methods). 4 out of 5 DOM manipulators recommend this tool. There are examples there, but do some research for an article specific to whatever method you want to use!
+* `classList` and [its many awesome methods](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList#Methods). 4 ere are examples there, but do some research for an article specific to whatever method you want to use!out of 5 DOM manipulators recommend this tool. Th
 
 
 ### Hints On The Basic JS
